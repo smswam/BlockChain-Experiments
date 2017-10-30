@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1508334609 source:c:\users\swa61802\dropbox\docs\source\blockchain\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"blockchain.h"
+	"md5.h"
+	"sha256.h"
+
+1508334238 source:c:\users\swa61802\dropbox\docs\source\blockchain\src\blockchain.cpp
+	<string>
+	"blockchain.h"
+
+1508333933 c:\users\swa61802\dropbox\docs\source\blockchain\include\blockchain.h
+	<string>
+
+1508277356 source:c:\users\swa61802\dropbox\docs\source\blockchain\src\md5.cpp
+	"md5.h"
+	<cstdio>
+
+1508277311 c:\users\swa61802\dropbox\docs\source\blockchain\include\md5.h
+	<cstring>
+	<iostream>
+
+1508376414 source:c:\users\steve\dropbox\docs\source\blockchain\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"blockchain.h"
+	"md5.h"
+	"sha256.h"
+
+1508280911 c:\users\steve\dropbox\docs\source\blockchain\include\md5.h
+	<cstring>
+	<iostream>
+
+1508337838 source:c:\users\steve\dropbox\docs\source\blockchain\src\blockchain.cpp
+	<string>
+	"blockchain.h"
+
+1508337533 c:\users\steve\dropbox\docs\source\blockchain\include\blockchain.h
+	<string>
+
+1508280956 source:c:\users\steve\dropbox\docs\source\blockchain\src\md5.cpp
+	"md5.h"
+	<cstdio>
+
+1508332852 c:\users\swa61802\dropbox\docs\source\blockchain\include\sha256.h
+	<string>
+
+1508334273 source:c:\users\swa61802\dropbox\docs\source\blockchain\src\sha256.cpp
+	<cstring>
+	<fstream>
+	"sha256.h"
+
+1508336452 c:\users\steve\dropbox\docs\source\blockchain\include\sha256.h
+	<string>
+
+1508337873 source:c:\users\steve\dropbox\docs\source\blockchain\src\sha256.cpp
+	<cstring>
+	<fstream>
+	"sha256.h"
+
