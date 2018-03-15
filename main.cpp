@@ -10,26 +10,27 @@ using std::cout; using std::endl;
 
 // vector<blockchain> blockchain = new ArrayList<>();
 
+unsigned long createNonce(unsigned long increment)
+{
+    unsigned long Nonce = 0 + increment;
+    return Nonce;
+}
 int main()
 {
-    string genesisTransactions[] = {"John sent USBank 0.011 bitcoin", "USBank sent 40 bitcoins to American Express"};
+    string genesisTransactions[] = {"John sent USBank 0.011 bitcoin"};
 
     cout << "BlockChain" << endl;
-    cout << "md5 of '"<< genesisTransactions[0] << "': " << md5("genesisTransactions[0]") << ": MD5 is now considered insecure" << endl;
+    for (unsigned long index = 0; index < 0xFFFF; index++) {
+        std::string genesisNonce = to_string(createNonce(index));
 
-    string output1 = sha256(genesisTransactions[0]);
-
-    cout << "sha256 '" << genesisTransactions[0] << "': " << output1 << endl;
-
-    genesisTransactions[0] = genesisTransactions[0] + ", " += genesisTransactions[1];
-
-    output1 = sha256(genesisTransactions[0]);
-    cout << "sha256 '" << genesisTransactions[0] << "': " << output1 << endl;
+        cout << index;
+        cout << " sha256 of '"<< genesisTransactions[0] + *genesisNonce << "': " << sha256(genesisTransactions[0] + *genesisNonce) << endl;
+    }
     return 0;
 }
 
 
-// Decentralization/Consensus algorithm (distributed concensus)
+// Decentralization/Consensus algorithm (distributed consensus)
 
 // Distributed Ledger
 
