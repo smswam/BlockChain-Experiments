@@ -33,5 +33,4 @@ int main()
 // Decentralization/Consensus algorithm (distributed consensus)
 
 // Distributed Ledger
-
 // Byzantine Agreement
